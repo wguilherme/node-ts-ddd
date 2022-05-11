@@ -6,5 +6,6 @@
     "esModuleInterop": true, //Emit additional JavaScript to ease support for importing CommonJS modules
     "allowJs": true, // Allow javascript files to be compiled.
     "strictNullChecks": true, // Enable strict null checks.
+    "experimentalDecorators": true
   }
 }
