@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/wguilherme/.nvm/versions/node/v16.14.2/bin/node /Users/wguilherme/.nvm/versions/node/v16.14.2/bin/yarn
+
+PATH: 
+  /Users/wguilherme/.nvm/versions/node/v16.14.2/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/wguilherme/.nvm/versions/node/v16.14.2/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/wguilherme/.fig/bin:/Users/wguilherme/.local/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/wguilherme/Desktop/Repos/ESTUDOS/gist/node-ts-ddd/package.json: Unexpected token } in JSON at position 277
+      at JSON.parse (<anonymous>)
+      at /Users/wguilherme/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/wguilherme/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/wguilherme/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "node-ts-ddd",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/wguilherme/node-ts-ddd.git",
+    "author": "Withney Guilherme <wguilhermecriativo@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "dev": "ts-node-dev src/index.ts",
+  
+    },
+    "devDependencies": {
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.6.4"
+    },
+    "dependencies": {
+      "express": "^4.18.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
